@@ -48,7 +48,7 @@ MonoBehaviour:
   m_GraphVersion: 12
   m_ResourceVersion: 1
   m_SubgraphDependencies:
-  - {fileID: 5371698745253816930, guid: dae4144dffecbac46abeb422d27c2aa3, type: 3}
+  - {fileID: 0}
   m_CategoryPath: Attribute
 --- !u!114 &3
 MonoBehaviour:
@@ -186,8 +186,7 @@ MonoBehaviour:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
   m_Direction: 0
-  m_LinkedSlots:
-  - {fileID: 27}
+  m_LinkedSlots: []
 --- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,45 +206,9 @@ MonoBehaviour:
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
-  m_OutputSlots:
-  - {fileID: 27}
+  m_OutputSlots: []
   m_Subgraph: {fileID: 5371698745253816930, guid: dae4144dffecbac46abeb422d27c2aa3,
     type: 3}
---- !u!114 &27
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 27}
-  m_MasterData:
-    m_Owner: {fileID: 26}
-    m_Value:
-      m_Type:
-        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 
-    m_Space: 2147483647
-  m_Property:
-    name: stripProgress
-    m_serializedType:
-      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-  m_Direction: 1
-  m_LinkedSlots:
-  - {fileID: 13}
 --- !u!114 &28
 MonoBehaviour:
   m_ObjectHideFlags: 0
